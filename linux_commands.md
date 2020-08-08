@@ -20,7 +20,6 @@ curl wget ${url_of_file} -O
 ```
 ls /etc/*release* #To check OS version
 ```
-
 ```
 cat /etc/*release* #To know more information of the OS
 ```
