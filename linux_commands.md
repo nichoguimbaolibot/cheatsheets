@@ -1,39 +1,28 @@
 # User Accounts
-## To know the current user
-```
-whoami
-```
 
-## To know the id
 ```
-id
+whoami #To know the current user
 ```
-
-
-## To switch user
 ```
-su ${username}
+id #To know the id
+```
+```
+su ${username} #To switch user
 ```
 
 
 # Download Files
 
-## To download a file and save it locally
 ```
-wget ${url_of_file} -O ${new_file_name}
+wget ${url_of_file} -O ${new_file_name} #To download a file and save it locally
 curl wget ${url_of_file} -O
 ```
-
-
-## To check OS version
 ```
-ls /etc/*release*
+ls /etc/*release* #To check OS version
 ```
 
-
-## To know more information of the OS
 ```
-cat /etc/*release*
+cat /etc/*release* #To know more information of the OS
 ```
 
 
